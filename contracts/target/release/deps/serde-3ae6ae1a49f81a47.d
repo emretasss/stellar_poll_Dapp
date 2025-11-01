@@ -1,0 +1,14 @@
+C:\Users\emre\Desktop\smart-stellar-demo\contracts\target\release\deps\serde-3ae6ae1a49f81a47.d: C:\Users\emre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs C:\Users\emre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs C:\Users\emre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs C:\Users\emre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs C:\Users\emre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs C:\Users\emre\Desktop\smart-stellar-demo\contracts\target\release\build\serde-95ec9fd773b0e95d\out/private.rs
+
+C:\Users\emre\Desktop\smart-stellar-demo\contracts\target\release\deps\libserde-3ae6ae1a49f81a47.rlib: C:\Users\emre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs C:\Users\emre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs C:\Users\emre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs C:\Users\emre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs C:\Users\emre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs C:\Users\emre\Desktop\smart-stellar-demo\contracts\target\release\build\serde-95ec9fd773b0e95d\out/private.rs
+
+C:\Users\emre\Desktop\smart-stellar-demo\contracts\target\release\deps\libserde-3ae6ae1a49f81a47.rmeta: C:\Users\emre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs C:\Users\emre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs C:\Users\emre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs C:\Users\emre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs C:\Users\emre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs C:\Users\emre\Desktop\smart-stellar-demo\contracts\target\release\build\serde-95ec9fd773b0e95d\out/private.rs
+
+C:\Users\emre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs:
+C:\Users\emre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs:
+C:\Users\emre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs:
+C:\Users\emre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs:
+C:\Users\emre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs:
+C:\Users\emre\Desktop\smart-stellar-demo\contracts\target\release\build\serde-95ec9fd773b0e95d\out/private.rs:
+
+# env-dep:OUT_DIR=C:\\Users\\emre\\Desktop\\smart-stellar-demo\\contracts\\target\\release\\build\\serde-95ec9fd773b0e95d\\out
