@@ -1,75 +1,61 @@
 # 🗳️ Stellar Poll dApp
 
-A decentralized poll and voting application built on the Stellar blockchain using Soroban smart contracts.
+A decentralized voting application built on the **Stellar blockchain**, enabling transparent and verifiable community polls without central control.
 
 ---
 
-## 🚀 Project Overview
+## 📖 Description
 
-The Stellar Poll dApp allows users to **create polls, add options, and vote in a fully decentralized manner**. All polls and votes are recorded on the Stellar blockchain, ensuring **immutability, transparency, and trustlessness**. Users do not rely on any centralized server, and their private keys never leave their wallets.
+**Stellar Poll dApp** is a blockchain-based voting system that allows users to create polls, submit options, and vote securely.  
+Every vote and poll action is recorded on-chain using **Soroban smart contracts**, ensuring transparency, immutability, and trust.
 
-### 🌟 Key Features
+The frontend is built with **Next.js** and **Tailwind CSS**, providing a modern and user-friendly interface.  
+Wallet connection and transaction signing are handled through **Stellar Wallets Kit**, making the experience smooth and secure.
 
-- Create new polls with 2–10 options  
-- Cast votes securely via your Stellar wallet  
-- Transactions are signed locally and submitted to the blockchain  
-- Real-time transaction status: Pending, Success, or Error  
-- Responsive and modern UI using Next.js and Tailwind CSS  
+This project demonstrates how decentralized governance and community-based decision-making can be implemented efficiently on Stellar.
 
 ---
 
-## 📝 Detailed Description
+## 🚀 Features
 
-### 1️⃣ Smart Contract – Soroban
-
-- **Language:** Rust  
-- **Platform:** Soroban (Stellar smart contracts)  
-- **Functions:**
-  - `create_poll(creator, question, options)` → Creates a new poll  
-  - `vote(poll_id, option_index, voter)` → Casts a vote for a specific option  
-  - `get_poll(poll_id)` → Fetches poll details  
-
-- **Data Structure:**  
-  Each poll contains:  
-  - `question: String`  
-  - `options: Vec<String>`  
-  - `votes: Map<address, u8>`  
-
-- **Properties:** All actions are recorded on the blockchain, immutable and transparent.
-
-### 2️⃣ Frontend – Next.js & React
-
-- **Framework:** Next.js 15  
-- **UI:** Tailwind CSS for modern, responsive design  
-- **Components:**
-  - `CreatePollPage` – Form for creating polls  
-  - `PollList` – Lists all existing polls  
-  - `PollCard` – Displays poll details and allows voting  
-
-- **User Flow:**
-  1. Connect wallet using StellarWalletsKit  
-  2. Create a poll with a question and multiple options  
-  3. Convert options and question to SorobanString  
-  4. Send transaction to blockchain  
-
-### 3️⃣ Wallet & Transactions
-
-- **Wallet:** StellarWalletsKit  
-- **Transaction Flow:**
-  1. User signs the transaction locally  
-  2. Signed XDR is sent to the smart contract  
-  3. Transaction status is tracked and displayed  
-
-- **Security:** Users’ private keys never leave the client; all signing happens locally.
-
-### 4️⃣ Testnet & Development
-
-- **Blockchain:** Stellar Testnet  
-- **RPC Endpoint:** `https://horizon-testnet.stellar.org`  
-- **Contract Deployment:** Compile Rust contract and deploy `.wasm` via Stellar CLI  
-- **Contract Bindings:** Generated with `stellar contract bindings ts` for TypeScript frontend integration  
+- 🪙 Built on the **Stellar testnet**  
+- 🧩 Powered by **Soroban smart contracts (Rust)**  
+- 💻 **Next.js 15 + Tailwind CSS** frontend  
+- 🔐 Secure wallet connection with **Stellar Wallets Kit**  
+- 🗳️ On-chain voting with immutable results  
 
 ---
 
-## 📁 Project Structure
+## ⚙️ Tech Stack
+
+| Layer | Technology |
+|-------|-------------|
+| Smart Contracts | Rust + Soroban |
+| Blockchain | Stellar Testnet |
+| Frontend | Next.js, Tailwind CSS |
+| Wallet Integration | Stellar Wallets Kit |
+| SDK | @stellar/stellar-sdk |
+
+---
+
+## 👥 Contributors
+
+| Name | GitHub |
+|------|---------|
+| Emre Taş | [@emretasss](https://github.com/emretasss) |
+
+
+---
+
+## 🌟 Future Improvements
+
+- Add **IPFS integration** for decentralized poll data  
+- Create **analytics dashboard** for visualizing results  
+- Extend to **multi-chain compatibility**  
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License** — free to use, modify, and distribute with proper attribution.
 
