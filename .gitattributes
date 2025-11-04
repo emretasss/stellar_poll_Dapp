@@ -1,16 +1,22 @@
-# === Language Stats Cleanup ===
+# Hide makefiles and *.mk from language stats
+Makefile linguist-detectable=false
+Makefile.* linguist-detectable=false
+*.mk linguist-detectable=false
+
+# Hide common lock / config files
+Cargo.lock linguist-detectable=false
+package-lock.json linguist-detectable=false
+yarn.lock linguist-detectable=false
+pnpm-lock.yaml linguist-detectable=false
+
+# Hide miscellaneous metadata that skews stats
 *.md linguist-detectable=false
 *.json linguist-detectable=false
-*.lock linguist-detectable=false
-*.toml linguist-detectable=false
-*.yml linguist-detectable=false
-*.yaml linguist-detectable=false
-Makefile linguist-detectable=false
 
-# Count only main code folders
-src/* linguist-detectable=true
-contracts/* linguist-detectable=true
-lib/* linguist-detectable=true
+# Ensure main code folders counted
+src/** linguist-detectable=true
+contracts/** linguist-detectable=true
+lib/** linguist-detectable=true
 
-# === Text normalization ===
+# Text normalization
 * text=auto
