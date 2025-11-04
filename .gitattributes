@@ -1,0 +1,16 @@
+# === Language Stats Cleanup ===
+*.md linguist-detectable=false
+*.json linguist-detectable=false
+*.lock linguist-detectable=false
+*.toml linguist-detectable=false
+*.yml linguist-detectable=false
+*.yaml linguist-detectable=false
+Makefile linguist-detectable=false
+
+# Count only main code folders
+src/* linguist-detectable=true
+contracts/* linguist-detectable=true
+lib/* linguist-detectable=true
+
+# === Text normalization ===
+* text=auto
